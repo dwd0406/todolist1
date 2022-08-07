@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+
+/*backgroundimg*/
+body {
+    background: url('https://github.com/heidiliu2020/react-blog-demo/blob/main/src/imgs/bg_1.jpg?raw=true') 50% 50% fixed no-repeat;
+    background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Todo.js */
+.Todo-Form {
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: auto;
+    width: calc(100% / 3);
+    margin-bottom: 20px;
+    border-radius: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.TodoFormContent {
+    margin-bottom: 5px;
+    padding-top: 5px;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.editBtn {
+    border-radius: 50px 0 0 50px;
+    margin-bottom: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.removeBtn {
+    border-radius: 0 50px 50px 0;
+    margin-bottom: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* TodoForm.js */
+.InputUpdate {
+    width: calc(100% / 3);
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 50px 0 0 50px;
+}
+
+.UpdateBtn {
+    margin-top: 10px;
+    border-radius: 0 50px 50px 0;
+}
+
+.InputAdd {
+    width: calc(100% / 3);
+    border: 2px solid #5d0cff;
+    outline: none;
+    margin-bottom: 50px;
+    border-radius: 50px 0 0 50px;
+}
+
+.CreateBtn {
+    border-radius: 0 50px 50px 0;
+}
+
+/* TodoList.js */
+.main {
+    text-align: center;
+}
+
+.Todolisth1 {
+    color: white;
 }
