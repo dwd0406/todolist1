@@ -1,7 +1,7 @@
 # todolist1
 todolist1 is a responsive React app interface for Todo-List built on [Ant-Design](https://ant.design/) .
 
-![](https://github.com/xcv46/todolist1/blob/master/public/gg.gif?raw=true)
+![](https://github.com/xcv46/todolist1/blob/master/public/gg.gif)
 
 ## Installation
 
